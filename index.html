@@ -18,10 +18,13 @@
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/portifolio.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
 
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="assets/img/MinhaFoto.jpeg" alt="Foto de Daniel Ferreira Lima" class="photo">
 
@@ -30,25 +33,61 @@
             <div class="information">
                 <p class="job">Desenvolvedor Júnior</p>
                 <p class="location">Brasília - DF</p>
-                <p class="phone">(61) 9 99322-8585</p>
-                <p class="email">danieldfl010492@gmail.com</p>
+                <p class="phone">
+                    <a href="tel:+55619993228585">(61) 9 99322-8585</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:danieldfl010492@gmail.com">danieldfl010492@gmail.com</a>
+                </p>
             </div>
 
         </header>
 
         <section class="acordeon">
             <button class="trigger" type="button">
-                Idiomas
+                <h2>Idiomas</h2>
             </button>
 
             <div class="content">
-                <ul>
-                    <li>Português - Nativo</li>
+                <ul class="languages">
+                    <li>Português(BR) - Nativo</li>
                     <li>Inglês - Intermediário/Avançado</li>
                 </ul>
             </div>
         </section>
 
-    </div>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portifolio">
+                    <li>
+                        <h3 class="title github">Criando App no REACT Native</h3>
+                        <a href="https://github.com/DFL010492/Mobile_Final_3.git" target="_blank">https://github.com/DFL010492/Mobile_Final_3.git</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Estagio na LJIT</h3>
+                        <p class="periodo">18/04/204 - 19/12/2025</p>
+                        <p>Estagiando, fazendo parte da equipe de desenvolvimento. Criando softwares para a propria Defensoria do Distrito Federal</p>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/Portfólio/assets/js/acordeon.js"></script>
 </body>
 </html
