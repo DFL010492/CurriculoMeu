@@ -1,0 +1,60 @@
+{
+  "name": "Daniel Ferreira Lima",
+  "photo": "assets/img/MinhaFoto.jpeg",
+  "headline": "Olá, eu sou Daniel Ferreira Lima",
+  "job": "Desenvolvedor Júnior",
+  "location": "Brasília - DF",
+  "phone": "(61) 9 99322-8585",
+  "email": "danieldfl010492@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "React",
+        "logo": "assets/img/react.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "assets/img/js.svg"
+      },
+      {
+        "name": "HTML",
+        "logo": "assets/img/html.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "assets/img/css.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "assets/img/python.svg"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Facilidade de Comunicação",
+      "Organização",
+      "Comprometimento com Resultados",
+      "Trabalho em Equipe",
+      "Facilidade com tarefas Práticas",
+      "Facilidade com Aprendizado"
+    ]
+  },
+  "languages": [
+    "Português (BR) - Nativo",
+    "Inglês - Intermediário/Avançado"
+  ],
+  "portfolio": [
+    {
+      "name": "Criando App no REACT Native",
+      "url": "https://github.com/DFL010492/Mobile_Final_3.git",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Estágio na LJIT",
+      "period": "18/04/2024 - 19/12/2025",
+      "description": "Estagiando, fazendo parte da equipe de desenvolvimento. Criando softwares para a própria Defensoria do Distrito Federal."
+    }
+  ]
+}
