@@ -9,23 +9,23 @@
     "hardSkills": [
       {
         "name": "React",
-        "logo": "assets/img/react.svg"
+        "logo": "assets/img/iconslanguages/React.png"
       },
       {
         "name": "JavaScript",
-        "logo": "assets/img/js.svg"
+        "logo": "assets/img/iconslanguages/JavaScript.png"
       },
       {
         "name": "HTML",
-        "logo": "assets/img/html.svg"
+        "logo": "assets/img/iconslanguages/HTML5.png"
       },
       {
         "name": "CSS",
-        "logo": "assets/img/css.svg"
+        "logo": "assets/img/iconslanguages/CSS3.png"
       },
       {
         "name": "Python",
-        "logo": "assets/img/python.svg"
+        "logo": "assets/img/iconslanguages/Python.png"
       }
     ],
     "softSkills": [
