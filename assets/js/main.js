@@ -33,6 +33,11 @@ function updateHardSkills(profileData) {
         .join('');
 }
 
+function updateLanguageSkills(profileData) {
+    const languageList = document.getElementById('profile.languages');
+    languageList.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
+}
+
 
 
 (async function() {
@@ -40,4 +45,5 @@ function updateHardSkills(profileData) {
     updateProfileInfo(profileData);
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
+    updateLanguageSkills(profileData);
 })();
