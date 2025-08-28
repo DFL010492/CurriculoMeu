@@ -38,6 +38,26 @@ function updateLanguageSkills(profileData) {
     languageList.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
 }
 
+function updatePortifolio(profileData) {
+    const portifolioList = document.getElementById('profile.portfolio');
+    portifolioList.innerHTML = profileData.portfolio.map(item => `
+        <li>
+            <h3 class="h3 github">${item.name}</h3>
+            <a href="${item.url}" target="_blank">${item.url}</a>
+        </li>
+    `).join('');
+}
+
+function updateExperienciaProfissional(profileData) {
+    const experienceList = document.getElementById('profile.professionalExperience');
+    experienceList.innerHTML = profileData.professionalExperience.map(item => `
+        <li>
+            <h3 class="h3">${item.name}</h3>
+            <p class="periodo">${item.period}</p>
+            <p>${item.description}</p>
+        </li>
+    `).join('');
+}
 
 
 (async function() {
@@ -46,4 +66,6 @@ function updateLanguageSkills(profileData) {
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
     updateLanguageSkills(profileData);
+    updatePortifolio(profileData);
+    updateExperienciaProfissional(profileData);
 })();
